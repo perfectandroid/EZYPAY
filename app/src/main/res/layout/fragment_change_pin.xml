@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/CoordinatorLayoutChangePin"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context=".activity.loginactivity.PinActivity.PinActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearlayout"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:maxLength="4"
+            android:inputType="numberPassword"
+            android:imeOptions="actionNext"
+
+            android:hint="Enter current PIN"
+            android:id="@+id/editText_current_pin" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:maxLength="4"
+            android:inputType="numberPassword"
+            android:imeOptions="actionNext"
+
+            android:hint="Enter new PIN"
+            android:id="@+id/editText_pin" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/confirm_new_pin"
+            android:maxLines="1"
+            android:maxLength="4"
+            android:inputType="numberPassword"
+            android:imeOptions="actionDone"
+            android:id="@+id/editText_confirm_pin" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:background="@drawable/buttonselctor_login"
+
+            android:text="Apply"
+            android:textColor="#ffffff"
+            android:id="@+id/button_pin"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <com.uncopt.android.widget.text.justify.JustifiedTextView
+        android:layout_marginBottom="15dp"
+        android:layout_width="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:layout_height="wrap_content"
+        android:text="@string/secretkeytext"
+        android:id="@+id/textView3"
+        android:layout_above="@+id/linearlayout"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

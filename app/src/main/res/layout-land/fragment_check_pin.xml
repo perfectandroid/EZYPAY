@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activity.loginactivity.LoginActivity">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_gravity="center"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/banklogo"
+            android:id="@+id/imageView4"
+            />
+        <TextView
+            android:text="@string/bankname"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_gravity="center"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/logotext"
+            android:id="@+id/imageViewlogo"
+            />
+        <View android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="15dp"
+
+            android:background="@drawable/toolbar_dropshadow"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+
+            android:layout_centerHorizontal="true"
+            android:id="@+id/linearLayout">
+            <LinearLayout
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_width="0px"
+                android:layout_height="0px"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:maxLines="1"
+                    android:imeOptions="actionDone"
+                    android:inputType="numberPassword"
+                    android:maxLength="4"
+
+                    android:layout_height="wrap_content"
+                    android:hint="@string/enter_pin"
+                    android:id="@+id/editText_pin" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textColor="@android:color/white"
+                android:text="@string/login"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonselctor_login"
+                android:layout_gravity="center"
+                android:id="@+id/button_pin" />
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.perfectlimited.ezypay"
+    android:installLocation="internalOnly">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:name=".global.Global"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:resizeableActivity="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.mainactivity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.loginactivity.LoginActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+
+        <activity
+            android:name=".activity.mainactivity.MessageShowActivity.ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".activity.loginactivity.CheckPinActivity.CheckPinActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+
+
+        <provider
+            android:name=".MyContentProvider"
+            android:authorities="${applicationId}.MyContentProvider"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service
+            android:name=".service.test"
+            android:exported="false" />
+        <service
+            android:name=".service.MyIntentService"
+            android:exported="false" />
+
+        <activity android:name=".activity.otpactivity.OtpActivity" />
+        <activity android:name=".activity.messageshowactivity.MessageShowActivity" />
+        <activity android:name=".activity.messageshowactivity.TransactionMessageActivity"></activity>
+    </application>
+
+</manifest>

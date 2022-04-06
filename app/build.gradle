@@ -1,0 +1,197 @@
+apply plugin: 'com.android.application'
+
+android {
+    flavorDimensions "default"
+    signingConfigs {
+        configmannarkadu {
+            keyAlias 'perfectezypay'
+            keyPassword 'EpTEQqMK(nLMf+Wz'
+            storeFile file('E:/Akash/Androidworkspace/ezypay/keystore/mannarkadu/ezypay.jks')
+            storePassword '@vpks\\IbaM$-#6R,'
+        }
+        configtownbank {
+            keyAlias 'ezypaytownbank'
+            keyPassword '!(/YK_mMQriE!L\\#'
+            storeFile file('E:/Akash/Androidworkspace/ezypay/keystore/townbank/ezypay.jks')
+            storePassword '>e$ktz*ylYW%O}~R'
+        }
+        confignadakkuthazha {
+            keyAlias 'perfectezypaynadakkuthazha'
+            keyPassword 'Eg+(w~s*UQW0,F|C'
+            storeFile file('E:/Akash/Androidworkspace/ezypay/keystore/nadakkuthazha/ezypay.jks')
+            storePassword 'ODdI,#UWH*,&xia~'
+        }
+        configramanattukara {
+            keyAlias 'perfectezypayramanattukara'
+            keyPassword 'Fi<\\@>VqTu=-Yg&p'
+            storeFile file('E:/Akash/Androidworkspace/ezypay/keystore/ramanattukara/ezypaykeystoreramanattukara.jks')
+            storePassword '7u+[3$88f\\saq;]i'
+        }
+
+
+        configkunnamangalam{
+            keyAlias 'perfectezypaykunnamangalam'
+            keyPassword 'x(q-~PBH^P~oxa]m'
+            storeFile file('E:/Akash/Androidworkspace/ezypay/keystore/kunnamangalam/ezypay.jks')
+            storePassword 'y^K3lo$l9{&x5$b}'
+        }
+
+        configmeppayur {
+            keyAlias 'ezypaymeppayur'
+            keyPassword 'k?+.FR,s4c]uldw9'
+            storeFile file('E:/Akash/Androidworkspace/ezypay/keystore/meppayur/ezypay.jks')
+            storePassword '~7Cff|jcfsa:LT{j'
+        }
+        configatholi {
+            keyAlias 'perfectezypayatholi'
+            keyPassword '~MbBwb6Inro^_XEw'
+            storeFile file('E:/Akash/Androidworkspace/ezypay/keystore/atholi/keystoreezypayatholi.jks')
+            storePassword 'wQvV6#1[ZeT3q6Q7'
+        }
+        configmayyanad{
+            keyAlias 'perfectezypaymayyanad'
+            keyPassword '!EQKus_#PhI/ZJb_'
+            storeFile file('E:/Akash/Androidworkspace/ezypay/keystore/mayyanad/ezypaykeystoremayyanad.jks')
+            storePassword '/Iz&f`Y)Oq-{~I):'
+        }
+        configkodiyathoor {
+            keyAlias 'perfectezypaykodiyathoor'
+            keyPassword '7*J5\\Lo[-Sds6?ld'
+            storeFile file('E:/Akash/Androidworkspace/ezypay/keystore/kodiyathoor/ezypaykodiyathoor.jks')
+            storePassword 'cXIa8lRZY}?2x=?G'
+        }
+        configpuduppadi{
+            keyAlias 'perfectezypaypuduppadi'
+            keyPassword 'hJr+s/9W^Ytd9.a/'
+            storeFile file('E:/Akash/Androidworkspace/ezypay/keystore/puduppadi/puduppadyezypaykeystore.jks')
+            storePassword '_Hx}cYG-libndWU-'
+        }
+        configmannarkkad_taluk{
+            keyAlias 'perfectezypaymannarkkadu_taluk'
+            keyPassword 'b3uziocdx&lV~WV7'
+            storeFile file('E:/Akash/Androidworkspace/ezypay/keystore/mannarkkad_taluk/ezypaymannarkadutalukkeystore.jks')
+            storePassword '=5Mna//[|&F[gr7O'
+        }
+        configcheruvannur{
+            keyAlias 'perfectezypaycheruvannur'
+            keyPassword 'N6H/e3IZcIncqK.&'
+            storeFile file('E:/Akash/Androidworkspace/ezypay/keystore/cheruvannur/kesytoreezypaycheruvannu.jks')
+            storePassword 'smGFErQ?c]e9s1TB'
+        }
+        configcalicutcity{
+            keyAlias 'perfectezypaycalicutcity'
+            keyPassword 'b3uziocdx&lV~WV7'
+            storeFile file('E:/Akash/Androidworkspace/ezypay/keystore/calicutcity/calicutcityezypaykesytore.jks')
+            storePassword 'k?+.FR,s4c]uldw9'
+        }
+
+
+    }
+    compileSdkVersion 25
+    buildToolsVersion '28.0.3'
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0.0"
+        applicationId 'com.ezypay.nilambur'
+    }
+    buildTypes {
+        release {
+            debuggable false
+            shrinkResources true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+        mannarkadu {
+            applicationId "com.perfectlimited.ezypay"
+            signingConfig signingConfigs.configmannarkadu
+        }
+        mannarkkad_taluk {
+            applicationId "com.perfectlimited.ezypaymannarkkad_taluk"
+            signingConfig signingConfigs.configmannarkkad_taluk
+        }
+        townbank {
+            applicationId "com.perfectlimited.ezypaytownbank"
+            signingConfig signingConfigs.configtownbank
+        }
+        nadakkuthazha {
+            applicationId "com.perfectlimited.ezypaynadakkuthazha"
+            signingConfig signingConfigs.confignadakkuthazha
+        }
+        ramanattukara {
+            applicationId "com.perfectlimited.ezypayramanattukara"
+            signingConfig signingConfigs.configramanattukara
+        }
+        kunnamangalam {
+            applicationId "com.perfectlimited.ezypaykunnamangalam"
+            signingConfig signingConfigs.configkunnamangalam
+        }
+        meppayur {
+            applicationId "com.perfectlimited.ezypaymeppayura"
+            signingConfig signingConfigs.configmeppayur
+        }
+        atholi {
+            applicationId "com.perfectlimited.ezypayatholi"
+            signingConfig signingConfigs.configatholi
+        }
+        kodiyathoor {
+            applicationId "com.perfectlimited.ezypaykodiyathoor"
+            signingConfig signingConfigs.configkodiyathoor
+            minSdkVersion 15
+        }
+        puduppadi {
+            applicationId "com.perfectlimited.ezypaypuduppadi"
+            signingConfig signingConfigs.configpuduppadi
+        }
+        mayyanad {
+            applicationId "com.perfectlimited.ezypaymayyanad"
+            signingConfig signingConfigs.configmayyanad
+        }
+        cheruvannur {
+            applicationId "com.perfectlimited.ezypaycheruvannur"
+            signingConfig signingConfigs.configcheruvannur
+        }
+        calicutcity {
+            applicationId "com.perfectlimited.ezypaycalicutcity"
+            signingConfig signingConfigs.configcalicutcity
+        }
+        statictest {
+            applicationId "com.perfectlimited.ezypaystatictest"
+        }
+        mattannur {
+            minSdkVersion 17
+            applicationId 'com.perfectlimited.mattannur'
+        }
+        nilambur {
+            minSdkVersion 17
+            applicationId 'com.perfectlimited.nilambur'
+        }
+    }
+
+}
+
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //    compile 'org.apache.commons:commons-io:1.3.2'
+    implementation 'com.android.support:appcompat-v7:25.1.1'
+    implementation 'com.android.support:design:25.1.1'
+    implementation 'com.android.support:support-v4:25.1.1'
+    implementation 'net.zetetic:android-database-sqlcipher:3.5.3@aar'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
+    implementation 'com.uncopt:android.justified:1.0'
+    testImplementation 'junit:junit:4.12'
+}
+
+
+
+
+
+
+
+
+

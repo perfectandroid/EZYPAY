@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.loginactivity.LoginActivity">
+    <com.uncopt.android.widget.text.justify.JustifiedTextView
+        android:text="@string/please_wait_for_otp_message"
+        android:layout_width="match_parent"
+        android:textSize="15sp"
+        android:paddingLeft="10dp"
+        android:visibility="gone"
+        android:paddingRight="10dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+android:layout_above="@+id/linearLayout"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/textViewOtp"
+        />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+        android:id="@+id/linearLayout"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_otp"
+            android:maxLength="4"
+            android:inputType="number"
+            android:imeOptions="actionDone"
+            android:layout_marginTop="5dp"
+            android:id="@+id/editTextOtp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@android:color/white"
+            android:text="Submit"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttonselctor_login"
+            android:layout_gravity="center"
+            android:id="@+id/buttonOtp" />
+    </LinearLayout>
+
+
+
+         />
+
+
+
+</RelativeLayout>

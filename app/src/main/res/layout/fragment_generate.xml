@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="0px"
+            android:layout_height="0px"/>
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:layout_marginBottom="15dp"
+            android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+            android:text="@string/generate_ezypay_id"
+            android:id="@+id/textView3"
+             />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+
+
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/mobile"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:imeOptions="actionDone"
+                android:id="@+id/editTextPhoneGenerate" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@android:color/white"
+            android:text="GENERATE"
+
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttonselctor_login"
+            android:layout_gravity="center"
+            android:id="@+id/buttonGen" />
+    </LinearLayout>
+
+</RelativeLayout>

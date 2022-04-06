@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.perfectlimited.ezypay.activity.mainactivity.MessageShowActivity.ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#fafafa"
+        android:layout_height="wrap_content">
+
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:paddingRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textColor="@color/colorAccent"
+            android:gravity="right"
+             android:id="@+id/textview_msg_time"
+              />
+
+
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subject"
+            android:paddingLeft="@dimen/text_margin"
+            android:paddingRight="@dimen/text_margin"
+
+            android:textColor="#333333"
+            android:textSize="17sp"
+
+            android:id="@+id/textview_subject_msg"
+             />
+
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:paddingLeft="@dimen/text_margin"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/text_margin"
+            android:layout_marginTop="10dp"
+
+            android:id="@+id/textview_msg_msg"
+            android:text="@string/large_text" />
+    </LinearLayout>
+
+
+
+
+</android.support.v4.widget.NestedScrollView>

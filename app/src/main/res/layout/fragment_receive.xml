@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     tools:context=".activity.loginactivity.LoginActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+
+        android:id="@+id/linearLayout"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="0px"
+            android:layout_height="0px"/>
+
+
+
+        <android.support.design.widget.TextInputLayout
+             android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ezypay_id"
+                android:inputType="number"
+                android:maxLength="6"
+                android:nextFocusUp="@+id/editTextPhone"
+                android:nextFocusLeft="@+id/editTextPhone"
+                android:imeOptions="actionNext"
+                android:id="@+id/editTextId" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+             android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+
+            android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/mobile"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:imeOptions="actionNext"
+             android:id="@+id/editTextPhone" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+
+            android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Amount"
+            android:inputType="phone"
+            android:imeOptions="actionNext"
+            android:maxLength="16"
+
+             android:id="@+id/editTextAmount" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+
+            android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/bill_no"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+
+             android:id="@+id/editTextRemark" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@android:color/white"
+            android:text="Continue"
+
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttonselctor_login"
+            android:layout_gravity="center"
+            android:id="@+id/buttonContinue" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+
+        >
+
+    </LinearLayout>
+
+    <com.uncopt.android.widget.text.justify.JustifiedTextView
+        android:text="@string/textviewreceive"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:textSize="15sp"
+         android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView19" />
+
+</RelativeLayout>

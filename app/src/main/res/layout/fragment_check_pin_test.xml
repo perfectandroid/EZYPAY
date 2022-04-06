@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".activity.loginactivity.PinActivity.PinActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearlayout"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:maxLines="1"
+               android:imeOptions="actionDone"
+            android:inputType="text"
+             android:layout_height="wrap_content"
+            android:hint="@string/enter_pin"
+            android:id="@+id/editText_pin" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:background="@drawable/buttonselctor_login"
+
+            android:text="Login"
+            android:textColor="#ffffff"
+            android:id="@+id/button_pin"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+
+       >
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,128 @@
+
+rsquid:S2068"V'PASSWORD' detected in this expression, review this potentially hard-coded credential.(õƒÖˆ8Õâ³´ƒ-
+wsquid:S2068"V'PASSWORD' detected in this expression, review this potentially hard-coded credential.(Î–¨Æüÿÿÿÿ8Õâ³´ƒ-
+wsquid:S2068"V'PASSWORD' detected in this expression, review this potentially hard-coded credential.(¬Ã›Ôúÿÿÿÿ8Õâ³´ƒ-
+rsquid:S2068"V'PASSWORD' detected in this expression, review this potentially hard-coded credential.(¡şù8Õâ³´ƒ-
+osquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(–³Â¨8Õâ³´ƒ-
+tsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(‡ÄîÛúÿÿÿÿ8Õâ³´ƒ-
+tsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(áŞÌİùÿÿÿÿ8Õâ³´ƒ-
+osquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(Ü¡é¹8Õâ³´ƒ-
+nsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(°´âI8Õâ³´ƒ-
+tsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(¨ò‚¤üÿÿÿÿ8Õâ³´ƒ-
+tsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(Ó™ö™şÿÿÿÿ8Õâ³´ƒ-
+nsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(Àµ–8Õâ³´ƒ-
+lsquid:S1192"KDefine a constant instead of duplicating this literal "dfjgkjghae" 3 times.(®—ùîøÿÿÿÿ8Õâ³´ƒ-
+lsquid:S1192"PDefine a constant instead of duplicating this literal "AndroidKeyStore" 6 times.(÷°×8Õâ³´ƒ-
+qsquid:S3008"PRename this field "DEBUG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îéÒ¡ÿÿÿÿÿ8Õâ³´ƒ-
+tsquid:S3008"SRename this field "BASE_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡íø‚úÿÿÿÿ8Õâ³´ƒ-
+osquid:S3008"SRename this field "API_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÔéá8Õâ³´ƒ-
+|squid:S3008"[Rename this field "SHAREDPREFSTRING" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®—ùîøÿÿÿÿ8Õâ³´ƒ-
+†squid:S3008"eRename this field "SHAREDPREFAL_ISALIAS_LOGIN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÕúÏúÿÿÿÿ8Õâ³´ƒ-
+zsquid:S3008"^Rename this field "SHAREDPREFAL_DBPASS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ûË8Õâ³´ƒ-
+ysquid:S3008"]Rename this field "SHAREDPREFAL_TOKEN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ã´¹8Õâ³´ƒ-
+‡squid:S3008"kRename this field "SHAREDPREFAL_IS_EVENT_FIRST_TIME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒÀµ‰8Õâ³´ƒ-
+…squid:S3008"iRename this field "SHAREDPREFSTRING_COUNT_MESSAGE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»¶Ï8Õâ³´ƒ-
+ƒsquid:S3008"gRename this field "SHAREDPREFSTRING_COUNT_EVENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ¸¬ì8Õâ³´ƒ-
+squid:S3008"eRename this field "SHAREDPREFSTRING_COUNT_DOC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì£å8Õâ³´ƒ-
+squid:S3008"lRename this field "SHAREDPREFSTRING_COUNT_SHARED_DOC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­¨¤·şÿÿÿÿ8Õâ³´ƒ-
+ƒsquid:S3008"gRename this field "EXCEPTION_DBPASSWORDKEYALTER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õƒÖˆ8Õâ³´ƒ-
+‰squid:S3008"hRename this field "EXCEPTION_DBPASSWORDKEYAEMPTY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î–¨Æüÿÿÿÿ8Õâ³´ƒ-
+‰squid:S3008"hRename this field "EXCEPTION_DBINCORRECTPASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬Ã›Ôúÿÿÿÿ8Õâ³´ƒ-
+~squid:S3008"]Rename this field "SYNC_DURATION_HOUR" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼¹µØùÿÿÿÿ8Õâ³´ƒ-
+{squid:S3008"_Rename this field "SYNC_DURATION_MINUTE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©¾èŒ8Õâ³´ƒ-
+ysquid:S3008"XRename this field "SYNC_INTERVAL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨€„óøÿÿÿÿ8Õâ³´ƒ-
+usquid:S3008"TRename this field "LAST_SYNC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆãİ‡øÿÿÿÿ8Õâ³´ƒ-
+|squid:S3008"[Rename this field "ALIASLOGINEXISTS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğæøàÿÿÿÿÿ8Õâ³´ƒ-
+vsquid:S3008"URename this field "ALIASTOKEN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã›˜Îşÿÿÿÿ8Õâ³´ƒ-
+vsquid:S3008"ZRename this field "ALIASDBPASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡şù8Õâ³´ƒ-
+jsquid:S4042"IUse "java.nio.Files#delete" here for better messages on error conditions.(Ş—¶Êÿÿÿÿÿ8Õâ³´ƒ-
+Lsquid:S1444"+Make this "public static DEBUG" field final(îéÒ¡ÿÿÿÿÿ8Õâ³´ƒ-
+Wsquid:S1444"6Make this "public static SHAREDPREFSTRING" field final(®—ùîøÿÿÿÿ8Õâ³´ƒ-
+asquid:S1444"@Make this "public static SHAREDPREFAL_ISALIAS_LOGIN" field final(ÿÕúÏúÿÿÿÿ8Õâ³´ƒ-
+Usquid:S1444"9Make this "public static SHAREDPREFAL_DBPASS" field final(“ûË8Õâ³´ƒ-
+Tsquid:S1444"8Make this "public static SHAREDPREFAL_TOKEN" field final(†ã´¹8Õâ³´ƒ-
+bsquid:S1444"FMake this "public static SHAREDPREFAL_IS_EVENT_FIRST_TIME" field final(ÒÀµ‰8Õâ³´ƒ-
+`squid:S1444"DMake this "public static SHAREDPREFSTRING_COUNT_MESSAGE" field final(»¶Ï8Õâ³´ƒ-
+^squid:S1444"BMake this "public static SHAREDPREFSTRING_COUNT_EVENT" field final(Ÿ¸¬ì8Õâ³´ƒ-
+\squid:S1444"@Make this "public static SHAREDPREFSTRING_COUNT_DOC" field final(ì£å8Õâ³´ƒ-
+hsquid:S1444"GMake this "public static SHAREDPREFSTRING_COUNT_SHARED_DOC" field final(­¨¤·şÿÿÿÿ8Õâ³´ƒ-
+^squid:S1444"BMake this "public static EXCEPTION_DBPASSWORDKEYALTER" field final(õƒÖˆ8Õâ³´ƒ-
+dsquid:S1444"CMake this "public static EXCEPTION_DBPASSWORDKEYAEMPTY" field final(Î–¨Æüÿÿÿÿ8Õâ³´ƒ-
+dsquid:S1444"CMake this "public static EXCEPTION_DBINCORRECTPASSWORD" field final(¬Ã›Ôúÿÿÿÿ8Õâ³´ƒ-
+Ysquid:S1444"8Make this "public static SYNC_DURATION_HOUR" field final(¼¹µØùÿÿÿÿ8Õâ³´ƒ-
+Vsquid:S1444":Make this "public static SYNC_DURATION_MINUTE" field final(©¾èŒ8Õâ³´ƒ-
+Tsquid:S1444"3Make this "public static SYNC_INTERVAL" field final(¨€„óøÿÿÿÿ8Õâ³´ƒ-
+Psquid:S1444"/Make this "public static LAST_SYNC" field final(ˆãİ‡øÿÿÿÿ8Õâ³´ƒ-
+Wsquid:S1444"6Make this "public static ALIASLOGINEXISTS" field final(Ğæøàÿÿÿÿÿ8Õâ³´ƒ-
+Qsquid:S1444"0Make this "public static ALIASTOKEN" field final(ã›˜Îşÿÿÿÿ8Õâ³´ƒ-
+Qsquid:S1444"5Make this "public static ALIASDBPASSWORD" field final(¡şù8Õâ³´ƒ-
+Ksquid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8Õâ³´ƒ-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ÿ¢»Ëùÿÿÿÿ8Õâ³´ƒ-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ñİ‰à8Õâ³´ƒ-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ËŸ¦—8Õâ³´ƒ-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ìŒğæ8Õâ³´ƒ-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÇàÈ¿ÿÿÿÿÿ8Õâ³´ƒ-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¨ù¥Éûÿÿÿÿ8Õâ³´ƒ-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Üîæİ8Õâ³´ƒ-
+fsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ôÕ½n8Õâ³´ƒ-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(«š‰ûÿÿÿÿ8Õâ³´ƒ-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Á¿Ü‹üÿÿÿÿ8Õâ³´ƒ-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8Õâ³´ƒ-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ8Õâ³´ƒ-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‘€ôÚ8Õâ³´ƒ-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(êÈÎë8Õâ³´ƒ-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Üîæİ8Õâ³´ƒ-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ê†·ˆıÿÿÿÿ8Õâ³´ƒ-
+bsquid:S1126"AReplace this if-then-else statement by a single return statement.(¢‘¹Àıÿÿÿÿ8Õâ³´ƒ-
+{squid:S1488"ZImmediately return this expression instead of assigning it to the temporary variable "px".(•½Ç”ùÿÿÿÿ8Õâ³´ƒ-
+vsquid:S1488"ZImmediately return this expression instead of assigning it to the temporary variable "dp".(¥¨µ¢8Õâ³´ƒ-
+Wsquid:S2696"6Make the enclosing method "static" or remove this set.(èĞÕÿıÿÿÿÿ8Õâ³´ƒ-
+Wsquid:S2696"6Make the enclosing method "static" or remove this set.(º¨´ıÿÿÿÿ8Õâ³´ƒ-
+‰"squid:ClassVariableVisibilityCheck"QMake DEBUG a static final constant or non-public and provide accessors if needed.(îéÒ¡ÿÿÿÿÿ8Õâ³´ƒ-
+”"squid:ClassVariableVisibilityCheck"\Make SHAREDPREFSTRING a static final constant or non-public and provide accessors if needed.(®—ùîøÿÿÿÿ8Õâ³´ƒ-
+"squid:ClassVariableVisibilityCheck"fMake SHAREDPREFAL_ISALIAS_LOGIN a static final constant or non-public and provide accessors if needed.(ÿÕúÏúÿÿÿÿ8Õâ³´ƒ-
+’"squid:ClassVariableVisibilityCheck"_Make SHAREDPREFAL_DBPASS a static final constant or non-public and provide accessors if needed.(“ûË8Õâ³´ƒ-
+‘"squid:ClassVariableVisibilityCheck"^Make SHAREDPREFAL_TOKEN a static final constant or non-public and provide accessors if needed.(†ã´¹8Õâ³´ƒ-
+Ÿ"squid:ClassVariableVisibilityCheck"lMake SHAREDPREFAL_IS_EVENT_FIRST_TIME a static final constant or non-public and provide accessors if needed.(ÒÀµ‰8Õâ³´ƒ-
+"squid:ClassVariableVisibilityCheck"jMake SHAREDPREFSTRING_COUNT_MESSAGE a static final constant or non-public and provide accessors if needed.(»¶Ï8Õâ³´ƒ-
+›"squid:ClassVariableVisibilityCheck"hMake SHAREDPREFSTRING_COUNT_EVENT a static final constant or non-public and provide accessors if needed.(Ÿ¸¬ì8Õâ³´ƒ-
+™"squid:ClassVariableVisibilityCheck"fMake SHAREDPREFSTRING_COUNT_DOC a static final constant or non-public and provide accessors if needed.(ì£å8Õâ³´ƒ-
+¥"squid:ClassVariableVisibilityCheck"mMake SHAREDPREFSTRING_COUNT_SHARED_DOC a static final constant or non-public and provide accessors if needed.(­¨¤·şÿÿÿÿ8Õâ³´ƒ-
+›"squid:ClassVariableVisibilityCheck"hMake EXCEPTION_DBPASSWORDKEYALTER a static final constant or non-public and provide accessors if needed.(õƒÖˆ8Õâ³´ƒ-
+¡"squid:ClassVariableVisibilityCheck"iMake EXCEPTION_DBPASSWORDKEYAEMPTY a static final constant or non-public and provide accessors if needed.(Î–¨Æüÿÿÿÿ8Õâ³´ƒ-
+¡"squid:ClassVariableVisibilityCheck"iMake EXCEPTION_DBINCORRECTPASSWORD a static final constant or non-public and provide accessors if needed.(¬Ã›Ôúÿÿÿÿ8Õâ³´ƒ-
+–"squid:ClassVariableVisibilityCheck"^Make SYNC_DURATION_HOUR a static final constant or non-public and provide accessors if needed.(¼¹µØùÿÿÿÿ8Õâ³´ƒ-
+“"squid:ClassVariableVisibilityCheck"`Make SYNC_DURATION_MINUTE a static final constant or non-public and provide accessors if needed.(©¾èŒ8Õâ³´ƒ-
+‘"squid:ClassVariableVisibilityCheck"YMake SYNC_INTERVAL a static final constant or non-public and provide accessors if needed.(¨€„óøÿÿÿÿ8Õâ³´ƒ-
+"squid:ClassVariableVisibilityCheck"UMake LAST_SYNC a static final constant or non-public and provide accessors if needed.(ˆãİ‡øÿÿÿÿ8Õâ³´ƒ-
+”"squid:ClassVariableVisibilityCheck"\Make ALIASLOGINEXISTS a static final constant or non-public and provide accessors if needed.(Ğæøàÿÿÿÿÿ8Õâ³´ƒ-
+"squid:ClassVariableVisibilityCheck"VMake ALIASTOKEN a static final constant or non-public and provide accessors if needed.(ã›˜Îşÿÿÿÿ8Õâ³´ƒ-
+"squid:ClassVariableVisibilityCheck"[Make ALIASDBPASSWORD a static final constant or non-public and provide accessors if needed.(¡şù8Õâ³´ƒ-
+isquid:S1226"HIntroduce a new variable instead of reusing the parameter "alertDialog".(ÑÍ¶øÿÿÿÿ8Õâ³´ƒ-
+Nsquid:S1905"-Remove this unnecessary cast to "PrivateKey".(ìãÙêıÿÿÿÿ8Õâ³´ƒ-
+Msquid:S1905",Remove this unnecessary cast to "PublicKey".(¼ˆ€şøÿÿÿÿ8Õâ³´ƒ-
+Nsquid:S1481"-Remove this unused "response" local variable.(ü…»Óşÿÿÿÿ8Õâ³´ƒ-
+Lsquid:S1481"+Remove this unused "buffer" local variable.(Éâ·üÿÿÿÿ8Õâ³´ƒ-
+Msquid:S1481",Remove this unused "keyPair" local variable.(Û½’âıÿÿÿÿ8Õâ³´ƒ-
+nsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Œ¸ü8Õâ³´ƒ-
+nsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ºæÜ8Õâ³´ƒ-
+ssquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(¸íÏªøÿÿÿÿ8Õâ³´ƒ-
+Vsquid:S2209"5Change this instance-reference to a static reference.(º¨´ıÿÿÿÿ8Õâ³´ƒ-
+ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¾ê 8Õâ³´ƒ-
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8Õâ³´ƒ-
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8Õâ³´ƒ-
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8Õâ³´ƒ-
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8Õâ³´ƒ-
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8Õâ³´ƒ-
+Fsquid:S00108")Either remove or fill this block of code.(™÷¾ı8Õâ³´ƒ-
+hsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(è¿²Àúÿÿÿÿ8Õâ³´ƒ-
+csquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(š¥ôÆ8Õâ³´ƒ-
+csquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ÔçøÀ8Õâ³´ƒ-
+csquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(š¥ôÆ8Õâ³´ƒ-
+csquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(â­—İ8Õâ³´ƒ-
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÚŞëÛ8Õâ³´ƒ-
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(îóİ†ûÿÿÿÿ8Õâ³´ƒ-
+Dsquid:S1185"(Remove this method to simply inherit it.(òÈ‰í8Õâ³´ƒ-
+\squid:S1854";Remove this useless assignment to local variable "keyPair".(Û½’âıÿÿÿÿ8Õâ³´ƒ-
+ssquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ß¶©şÿÿÿÿ8Õâ³´ƒ-
+ssquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äëô¦øÿÿÿÿ8Õâ³´ƒ-

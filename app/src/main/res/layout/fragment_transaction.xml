@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".activity.loginactivity.PinActivity.PinActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:minHeight="25dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Account No"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViefwTitle"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:layout_weight="1.4" />
+
+            <TextView
+                android:text="...."
+                android:layout_gravity="center"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewAccNo"
+                android:gravity="left"
+
+                android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:minHeight="25dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Opening Balance"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewTitlee"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:layout_weight="1.4" />
+
+            <TextView
+                android:text="...."
+                android:layout_gravity="center"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewOpeningBalance"
+                android:gravity="left"
+
+                android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:minHeight="25dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="As On"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewTitl"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:layout_weight="1.4" />
+
+            <TextView
+                android:text="...."
+
+                android:layout_gravity="center"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewDate"
+                android:gravity="left"
+
+                android:layout_weight="1" />
+        </LinearLayout>
+        <View android:layout_width="match_parent"
+            android:layout_height="3dp"
+
+            android:background="@drawable/toolbar_dropshadow"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent"
+                android:layout_weight="1.3">
+
+                <TextView
+                    android:text="TIME"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorAccent"
+
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewTransIdd"
+                    android:gravity="center"
+
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:background="#DCDCDC"
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"></LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:text="AMOUNT"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorAccent"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewTransNarration"
+                    android:gravity="center"
+
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:background="#DCDCDC"
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"></LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.1">
+
+                <TextView
+                    android:text="BALANCE"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorAccent"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewTransAmount"
+                    android:gravity="center"
+
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/listview_transaction"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+
+    <ImageButton
+        android:id="@+id/imageButtonRetryTransaction"
+
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/retryone"
+        android:textColor="#ffffff"
+        android:text="Retry"
+
+        android:scaleType="fitXY"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        />
+
+    <TextView
+        android:text="No transactions available"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+         android:layout_height="wrap_content"
+       android:layout_below="@+id/imageButtonRetryTransaction"
+        android:id="@+id/textViewNoTransaction" />
+
+</RelativeLayout>

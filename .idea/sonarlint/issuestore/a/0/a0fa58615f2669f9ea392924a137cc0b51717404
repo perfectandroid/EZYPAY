@@ -1,0 +1,34 @@
+
+Fsquid:S1659"1Declare "editTextPhoneNumber" on a separate line.(“™Ÿƒ
+bsquid:S1871"MThis branch's code block is the same as the block for the branch on line 446.(ˆ¼ú“
+asquid:S1871"MThis branch's code block is the same as the block for the branch on line 446.(˜û™U
+Dsquid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ã±­éøÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¾÷Â
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(á™ëüúÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(á™ëüúÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÅÃÌáøÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ØÔÍ‡
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(áíüÈùÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÈƒÕ¢
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÀÈÙï
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(³Íî¢úÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Œ€£šùÿÿÿÿ
+Osquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Osquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+œsquid:S2681"†This line will not be executed conditionally; only the first line of this 4-line block will be. The rest will execute unconditionally.(›ûä·
+Dsquid:S1481"*Remove this unused "token" local variable.(ö‹¡Þúÿÿÿÿ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 50 to the 15 allowed.(‰·¢²üÿÿÿÿ
+?squid:S00108")Either remove or fill this block of code.(å¥ž‡
+\squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Ø²ƒ
+asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(¡ê»ÿÿÿÿÿ
+–squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«û³±
+–squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±¾ê
+–squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«û³±
+–squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±¾ê
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±‡‰î
+[
+squid:S899"BDo something with the "boolean" value returned by "createNewFile".(Ð’Íùÿÿÿÿ
